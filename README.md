@@ -9,9 +9,9 @@ Site static pentru servicii de izolații cu spumă poliuretanică în Dolj, Gorj
 - `styles.css` - design responsive și stilurile comune.
 - `script.js` - meniu mobil.
 - `robots.txt` și `sitemap.xml` - fișiere SEO tehnice.
-- `oltenia.jpg.gif` - imaginea primită ca referință.
+- `oltenia.jpg.gif` - hartă de referință pentru județele acoperite.
 
-Galeria foto din homepage folosește imagini externe temporare, potrivite ca direcție vizuală. Pentru lansare, înlocuiește-le cu poze proprii de la lucrări reale, nu cu imagini copiate de pe alte site-uri fără permisiune.
+Galeria foto din homepage folosește fotografii reale din lucrări de izolare cu spumă poliuretanică.
 
 ## Rulare locală
 
@@ -39,13 +39,12 @@ Setări recomandate în Azure Portal:
 
 Azure va crea automat un workflow GitHub Actions pentru deploy. Fișierul `staticwebapp.config.json` este inclus pentru headers de securitate și tipuri MIME corecte pentru `sitemap.xml` și `robots.txt`.
 
-## Înainte de publicare
+## Date comerciale
 
-Înlocuiește în toate fișierele:
+Pentru producție, actualizează datele comerciale atunci când există domeniul și datele finale ale firmei:
 
-- `https://victorious-forest-04fbc5f03.7.azurestaticapps.net/` cu domeniul real.
-- `0700 000 000` și `+40700000000` cu telefonul real.
-- `contact@domeniul-tau.ro` cu emailul real.
-- `Izolații Spumă Oltenia` cu numele firmei, dacă este diferit.
+- domeniul principal folosit în canonical, OpenGraph, `robots.txt` și `sitemap.xml`.
+- numele firmei afișat în site și în datele structurate.
+- metoda reală de contact pentru formularul de ofertă.
 
 După schimbarea domeniului, actualizează și `sitemap.xml` plus `robots.txt`.
