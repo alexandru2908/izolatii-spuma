@@ -23,6 +23,22 @@ python3 -m http.server 4173
 
 Apoi deschide `http://localhost:4173/`.
 
+## Hosting pe Azure Static Web Apps
+
+Setări recomandate în Azure Portal:
+
+- `Plan type`: Free pentru început.
+- `Region`: West Europe sau North Europe.
+- `Deployment source`: GitHub.
+- `Repository`: `alexandru2908/izolatii-spuma`.
+- `Branch`: `main`.
+- `Build preset`: Custom.
+- `App location`: `/`.
+- `Api location`: gol.
+- `Output location`: gol.
+
+Azure va crea automat un workflow GitHub Actions pentru deploy. Fișierul `staticwebapp.config.json` este inclus pentru headers de securitate și tipuri MIME corecte pentru `sitemap.xml` și `robots.txt`.
+
 ## Înainte de publicare
 
 Înlocuiește în toate fișierele:
