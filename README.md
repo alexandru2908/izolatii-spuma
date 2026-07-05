@@ -43,9 +43,9 @@ Azure va crea automat un workflow GitHub Actions pentru deploy. Fișierul `stati
 
 Înlocuiește în toate fișierele:
 
-- `https://www.exemplu.ro/` cu domeniul real.
+- `https://victorious-forest-04fbc5f03.7.azurestaticapps.net/` cu domeniul real.
 - `0700 000 000` și `+40700000000` cu telefonul real.
-- `contact@exemplu.ro` cu emailul real.
+- `contact@domeniul-tau.ro` cu emailul real.
 - `Izolații Spumă Oltenia` cu numele firmei, dacă este diferit.
 
 După schimbarea domeniului, actualizează și `sitemap.xml` plus `robots.txt`.

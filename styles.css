@@ -460,6 +460,27 @@ h3 {
   gap: 1rem;
 }
 
+.seo-pillar {
+  padding-top: 2rem;
+}
+
+.pillar-layout {
+  display: grid;
+  gap: 1rem;
+}
+
+.pillar-layout article {
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 247, 0.92);
+  box-shadow: 0 14px 35px rgba(19, 35, 31, 0.08);
+}
+
+.pillar-layout p {
+  color: var(--muted);
+}
+
 .service-card,
 .benefit-list article,
 .steps li,
@@ -977,6 +998,10 @@ h3 {
   .gallery-grid,
   .steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pillar-layout {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .gallery-card-large,
