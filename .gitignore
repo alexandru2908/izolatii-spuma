@@ -1,7 +1,8 @@
 # OS and editor files
 .DS_Store
 Thumbs.db
-.vscode/
+.vscode/*
+!.vscode/mcp.json
 
 # Logs and temporary files
 *.log
