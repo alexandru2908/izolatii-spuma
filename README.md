@@ -34,10 +34,21 @@ Setări recomandate în Azure Portal:
 - `Branch`: `main`.
 - `Build preset`: Custom.
 - `App location`: `/`.
-- `Api location`: gol.
+- `Api location`: `api`.
 - `Output location`: gol.
 
 Azure va crea automat un workflow GitHub Actions pentru deploy. Fișierul `staticwebapp.config.json` este inclus pentru headers de securitate și tipuri MIME corecte pentru `sitemap.xml` și `robots.txt`.
+
+## Formular de contact
+
+Formularul trimite cererile către endpoint-ul serverless `/api/contact`. Pentru ca emailurile să fie trimise, configurează în Azure Static Web Apps → `Configuration` → `Application settings`:
+
+- `RESEND_API_KEY` - cheia API din Resend.
+- `MAIL_TO` - adresa care primește cererile de ofertă.
+- `MAIL_FROM` - adresa verificată din care se trimit emailurile, de exemplu `Oferte <oferte@domeniu.ro>`.
+- `MAIL_REPLY_TO` - opțional, adresa folosită pentru reply.
+
+După salvarea acestor setări, repornește/deployează aplicația sau trimite un nou commit pentru redeploy.
 
 ## Date comerciale
 
