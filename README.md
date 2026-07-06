@@ -45,7 +45,7 @@ Formularul trimite cererile către endpoint-ul serverless `/api/contact`. Pentru
 
 - `RESEND_API_KEY` - cheia API din Resend.
 - `MAIL_TO` - adresa care primește cererile de ofertă.
-- `MAIL_FROM` - adresa verificată din care se trimit emailurile, de exemplu `Oferte <oferte@domeniu.ro>`.
+- `MAIL_FROM` - adresa verificată din care se trimit emailurile, de exemplu `Oferte <oferte@domeniul.ro>`.
 - `MAIL_REPLY_TO` - opțional, adresa folosită pentru reply.
 
 După salvarea acestor setări, repornește/deployează aplicația sau trimite un nou commit pentru redeploy.

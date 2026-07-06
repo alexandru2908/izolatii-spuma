@@ -481,6 +481,29 @@ h3 {
   color: var(--muted);
 }
 
+.company-section {
+  padding-top: 1rem;
+}
+
+.company-card {
+  max-width: 920px;
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(23, 77, 63, 0.98), rgba(15, 53, 45, 0.95));
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.company-card .eyebrow {
+  color: #f8d08a;
+}
+
+.company-card p:not(.eyebrow) {
+  max-width: 760px;
+  color: #f7d99f;
+}
+
 .service-card,
 .benefit-list article,
 .steps li,
