@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://victorious-forest-04fbc5f03.7.azurestaticapps.net/sitemap.xml
+Sitemap: https://www.izolatiispumaoltenia.ro/sitemap.xml
