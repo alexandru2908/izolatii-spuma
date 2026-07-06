@@ -181,6 +181,19 @@ textarea {
   background: var(--surface-strong);
 }
 
+.main-nav .nav-social {
+  color: var(--green);
+  border: 1px solid rgba(23, 77, 63, 0.16);
+  background: rgba(42, 157, 143, 0.08);
+}
+
+.main-nav .nav-social:hover,
+.main-nav .nav-social:focus-visible {
+  color: var(--green-2);
+  border-color: rgba(23, 77, 63, 0.28);
+  background: rgba(42, 157, 143, 0.14);
+}
+
 .main-nav .nav-cta {
   color: #fff;
   background: var(--green);
