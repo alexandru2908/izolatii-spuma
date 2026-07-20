@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-spuma-panta-acoperis-grinzi.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-mansarda-fereastra-velux-spuma-poliuretanica.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-acoperis-spuma-poliuretanica-bca.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/aplicare-spuma-poliuretanica-mansarda-echipament.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ArJkpMFSFbo/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Aplicare spumă poliuretanică – izolații în Oltenia</video:title>
+      <video:description>Clip scurt din timpul unei lucrări de izolare cu spumă poliuretanică aplicată pe tavan, grinzi de lemn și zone greu accesibile.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ArJkpMFSFbo</video:player_loc>
+      <video:publication_date>2026-07-19</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/BhiYUHQMTE0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Aplicare spumă poliuretanică pe acoperiș – izolații în Oltenia</video:title>
+      <video:description>Clip din timpul unei lucrări de izolare cu spumă poliuretanică aplicată pe acoperișul de lemn al unui pod.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/BhiYUHQMTE0</video:player_loc>
+      <video:publication_date>2026-07-19</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/dolj.html</loc>
