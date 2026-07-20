@@ -13,3 +13,7 @@ Thumbs.db
 node_modules/
 dist/
 build/
+
+# Local-only assets (not part of the deployed site)
+gbp-poze/
+assets/gallery/originals/
