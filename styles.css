@@ -1366,3 +1366,44 @@ body { padding-bottom:4.3rem; }
   font-weight: 800;
   text-decoration: none;
 }
+
+.reviews-grid {
+  display: grid;
+  gap: 1rem;
+}
+.review-card {
+  margin: 0;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong, #fffdf7);
+  box-shadow: 0 14px 35px rgba(19, 35, 31, 0.08);
+}
+.review-stars {
+  color: #f5b301;
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+}
+.review-card blockquote {
+  margin: 0.85rem 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.review-card figcaption {
+  font-weight: 800;
+  color: var(--ink);
+}
+.review-card figcaption span {
+  color: var(--muted);
+  font-weight: 600;
+}
+.reviews-cta {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+@media (min-width: 720px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
