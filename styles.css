@@ -1277,7 +1277,7 @@ h3 {
 .equipment-section { padding-top:2rem; }
 .equipment-grid { display:grid; gap:1rem; }
 .equipment-grid figure { margin:0; overflow:hidden; border:1px solid var(--line); border-radius:12px; background:#fff; box-shadow:0 10px 30px rgba(19,35,31,.08); }
-.equipment-grid img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+.equipment-grid img { width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; display:block; }
 .equipment-grid figcaption { padding:.85rem 1rem; font-weight:800; color:var(--green); }
 .gallery-featured { grid-column:span 1; }
 .floating-actions { position:fixed; z-index:50; left:.55rem; right:.55rem; bottom:.55rem; display:grid; grid-template-columns:1fr 1fr; gap:.55rem; }
@@ -1288,7 +1288,7 @@ body { padding-bottom:4.3rem; }
 @media (min-width:720px) {
   .company-card-rich { grid-template-columns:1.05fr .95fr; padding:2rem; }
   .equipment-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
-  .gallery-featured { grid-column:span 2; }
+  .gallery-featured { grid-column:span 1; }
 }
 @media (min-width:980px) {
   .floating-actions { left:auto; right:1rem; bottom:1rem; width:22rem; }
