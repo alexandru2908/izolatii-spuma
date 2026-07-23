@@ -1245,3 +1245,124 @@ h3 {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Final Team Construct Oltenia upgrade */
+.hero-media {
+  position: relative;
+  min-height: 34rem;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  background: var(--surface-strong);
+}
+.hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(10, 31, 26, .72));
+  pointer-events: none;
+}
+.hero-media img { width: 100%; height: 100%; min-height: 34rem; object-fit: cover; display:block; }
+.hero-badge { position:absolute; z-index:2; left:1.2rem; right:1.2rem; bottom:1.2rem; padding:1rem 1.1rem; color:#fff; background:rgba(15,53,45,.84); border:1px solid rgba(255,255,255,.3); border-radius:12px; backdrop-filter:blur(8px); }
+.hero-badge strong,.hero-badge span { display:block; }
+.hero-badge strong { font-size:1.25rem; }
+.hero-badge span { color:#f7d99f; }
+.button-whatsapp { color:#fff; background:#1f9d55; box-shadow:0 12px 25px rgba(31,157,85,.22); }
+.button-whatsapp:hover,.button-whatsapp:focus-visible { background:#178346; }
+.company-card-rich { display:grid; gap:1.4rem; align-items:center; }
+.company-card-rich img { width:100%; max-height:32rem; object-fit:cover; border-radius:12px; box-shadow:var(--shadow); }
+.check-list { display:grid; gap:.65rem; padding:0; margin:1.25rem 0 0; list-style:none; }
+.check-list li { position:relative; padding-left:1.65rem; color:var(--ink); font-weight:700; }
+.check-list li::before { content:"✓"; position:absolute; left:0; color:var(--teal); font-weight:900; }
+.equipment-section { padding-top:2rem; }
+.equipment-grid { display:grid; gap:1rem; }
+.equipment-grid figure { margin:0; overflow:hidden; border:1px solid var(--line); border-radius:12px; background:#fff; box-shadow:0 10px 30px rgba(19,35,31,.08); }
+.equipment-grid img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+.equipment-grid figcaption { padding:.85rem 1rem; font-weight:800; color:var(--green); }
+.gallery-featured { grid-column:span 1; }
+.floating-actions { position:fixed; z-index:50; left:.55rem; right:.55rem; bottom:.55rem; display:grid; grid-template-columns:1fr 1fr; gap:.55rem; }
+.floating-actions a { min-height:3.15rem; display:flex; align-items:center; justify-content:center; padding:.7rem; border-radius:10px; color:#fff; text-decoration:none; font-weight:900; box-shadow:0 12px 28px rgba(0,0,0,.22); }
+.floating-call { background:var(--green); }
+.floating-whatsapp { background:#1f9d55; }
+body { padding-bottom:4.3rem; }
+@media (min-width:720px) {
+  .company-card-rich { grid-template-columns:1.05fr .95fr; padding:2rem; }
+  .equipment-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .gallery-featured { grid-column:span 2; }
+}
+@media (min-width:980px) {
+  .floating-actions { left:auto; right:1rem; bottom:1rem; width:22rem; }
+  body { padding-bottom:0; }
+}
+
+
+/* Client-benefit content adapted from the company's educational social posts */
+.client-benefits { background:linear-gradient(180deg,#f7fbf9 0%,#fff 100%); }
+.season-grid { display:grid; gap:1rem; margin-top:1.5rem; }
+.season-card { padding:1.35rem; border:1px solid var(--line); border-radius:14px; background:#fff; box-shadow:0 10px 30px rgba(19,35,31,.07); }
+.season-card h3 { margin:.55rem 0 .55rem; color:var(--green); }
+.season-card p { margin:0; }
+.season-icon { display:inline-grid; place-items:center; width:3rem; height:3rem; border-radius:999px; background:var(--surface-strong); font-size:1.45rem; }
+.outcome-box { display:grid; gap:1.2rem; margin-top:1.25rem; padding:1.5rem; border-radius:16px; color:#fff; background:var(--green); box-shadow:var(--shadow); }
+.outcome-box .eyebrow { color:#f7d99f; }
+.outcome-box h3 { margin:.3rem 0 0; color:#fff; }
+.outcome-list { display:grid; gap:.7rem; margin:0; padding:0; list-style:none; }
+.outcome-list li { position:relative; padding-left:1.65rem; }
+.outcome-list li::before { content:'✓'; position:absolute; left:0; color:#f7d99f; font-weight:900; }
+.benefit-cta { display:flex; flex-direction:column; align-items:flex-start; gap:1rem; margin-top:1.25rem; padding:1.3rem; border:1px solid var(--line); border-radius:14px; background:#fff; }
+.benefit-cta p { margin:0; }
+@media (min-width:720px) {
+  .season-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .outcome-box { grid-template-columns:.85fr 1.15fr; align-items:start; padding:2rem; }
+  .benefit-cta { flex-direction:row; align-items:center; justify-content:space-between; }
+  .benefit-cta p { max-width:60ch; }
+}
+
+/* Native work videos */
+.video-wrap video {
+  display: block;
+  width: 100%;
+  max-height: 720px;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #111;
+}
+.video-caption {
+  margin: 12px 4px 0;
+  font-weight: 700;
+  text-align: center;
+}
+.benefit-list ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+.benefit-list li + li { margin-top: 8px; }
+
+.error-page {
+  text-align: center;
+}
+.error-page h1 {
+  max-width: none;
+}
+.error-page .hero-lead {
+  margin-left: auto;
+  margin-right: auto;
+}
+.error-page .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.error-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+.error-links a {
+  color: var(--green);
+  font-weight: 800;
+  text-decoration: none;
+}

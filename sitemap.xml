@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-spuma-1.jpg</image:loc></image:image>
@@ -16,54 +16,65 @@
     <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-mansarda-fereastra-velux-spuma-poliuretanica.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-acoperis-spuma-poliuretanica-bca.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/aplicare-spuma-poliuretanica-mansarda-echipament.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/aplicare-spuma-mansarda-craiova.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-mansarda-spuma-celula-deschisa.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/aplicator-spuma-poliuretanica-echipament.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-pod-casa-oltenia.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/spuma-poliuretanica-intre-capriori.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/echipament-gusmer-gh2.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/utilaj-profesional-spuma-poliuretanica.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/atelier-mobil-izolatii-spuma.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/echipamente.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/lucrare-izolatie-spuma-echipa.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.izolatiispumaoltenia.ro/assets/gallery/izolatie-acoperis-spuma-aplicare.webp</image:loc></image:image>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/ArJkpMFSFbo/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Aplicare spumă poliuretanică – izolații în Oltenia</video:title>
-      <video:description>Clip scurt din timpul unei lucrări de izolare cu spumă poliuretanică aplicată pe tavan, grinzi de lemn și zone greu accesibile.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/ArJkpMFSFbo</video:player_loc>
-      <video:publication_date>2026-07-19</video:publication_date>
+      <video:thumbnail_loc>https://www.izolatiispumaoltenia.ro/assets/video-poster.jpg</video:thumbnail_loc>
+      <video:title>Aplicare spumă poliuretanică – Craiova</video:title>
+      <video:description>Clip din timpul unei lucrări de izolare cu spumă poliuretanică aplicată de Team Construct Oltenia în Craiova.</video:description>
+      <video:content_loc>https://www.izolatiispumaoltenia.ro/assets/videos/aplicare-spuma-poliuretanica-craiova.mp4</video:content_loc>
+      <video:publication_date>2026-07-22</video:publication_date>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/BhiYUHQMTE0/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Aplicare spumă poliuretanică pe acoperiș – izolații în Oltenia</video:title>
-      <video:description>Clip din timpul unei lucrări de izolare cu spumă poliuretanică aplicată pe acoperișul de lemn al unui pod.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/BhiYUHQMTE0</video:player_loc>
-      <video:publication_date>2026-07-19</video:publication_date>
+      <video:thumbnail_loc>https://www.izolatiispumaoltenia.ro/assets/video-poster-2.jpg</video:thumbnail_loc>
+      <video:title>Izolație pod cu spumă poliuretanică – Oltenia</video:title>
+      <video:description>Clip din timpul unei lucrări de izolare a unui pod cu spumă poliuretanică, realizată de Team Construct Oltenia în Oltenia.</video:description>
+      <video:content_loc>https://www.izolatiispumaoltenia.ro/assets/videos/izolatie-pod-spuma-oltenia.mp4</video:content_loc>
+      <video:publication_date>2026-07-22</video:publication_date>
     </video:video>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/dolj.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/gorj.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/valcea.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/olt.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/teleorman.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.izolatiispumaoltenia.ro/judete/mehedinti.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

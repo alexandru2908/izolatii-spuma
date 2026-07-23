@@ -5,8 +5,23 @@
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
   },
+  "routes": [
+    {
+      "route": "/assets/*",
+      "headers": {
+        "cache-control": "public, max-age=2592000"
+      }
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  },
   "mimeTypes": {
     ".xml": "application/xml",
-    ".txt": "text/plain"
+    ".txt": "text/plain",
+    ".webp": "image/webp",
+    ".mp4": "video/mp4"
   }
 }

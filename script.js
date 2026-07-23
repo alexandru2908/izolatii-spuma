@@ -75,18 +75,3 @@ if (contactForm instanceof HTMLFormElement) {
     }
   });
 }
-
-document.querySelectorAll('.video-facade').forEach((facade) => {
-  facade.addEventListener('click', () => {
-    const id = facade.dataset.yt;
-    if (!id) {
-      return;
-    }
-    const iframe = document.createElement('iframe');
-    iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1`;
-    iframe.title = 'Video: aplicare spumă poliuretanică';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    iframe.allowFullscreen = true;
-    facade.replaceWith(iframe);
-  });
-});
